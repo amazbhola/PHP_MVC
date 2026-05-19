@@ -95,6 +95,18 @@ class Database
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
+    public function find($table, $where)
+    {
+        $sql = "SELECT * FROM {$table} WHERE {$where}";
+
+        $stmt = $this->pdo->prepare($sql);
+
+        $stmt->execute();
+
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    
     public function __destruct()
     {
         $this->pdo = null;

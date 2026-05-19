@@ -1,0 +1,24 @@
+{
+  "name": "phpmvc",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/amazbhola/PHP_MVC#readme",
+  "bugs": {
+    "url": "https://github.com/amazbhola/PHP_MVC/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amazbhola/PHP_MVC.git"
+  },
+  "license": "MIT",
+  "author": "Md Fayezullah",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}

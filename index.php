@@ -2,6 +2,7 @@
 use Pecee\SimpleRouter\SimpleRouter;
 
 require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/app/Base/functions.php';
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
@@ -9,6 +10,12 @@ $dotenv->load();
 define('ROOT_DIR', __DIR__ . '/');
 define ('APP_DIR', ROOT_DIR . 'app');
 define ('VIEWS' , APP_DIR . '/views');
+define ('ASSETS', ROOT_DIR . 'assets');
+define('BASE_DIR', isset($_ENV['BASE_DIR']) ? $_ENV['BASE_DIR'] : '');
+
+
+
+
 /* Load external routes file */
 
 
