@@ -2,7 +2,7 @@
 
 use App\Base\Schema;
 
-Schema::create('locations', function ($table) {
+Schema::create('divisions', function ($table) {
 
     $table->id();
 
