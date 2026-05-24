@@ -1,7 +1,7 @@
 
-### installation 
+# Installation 
 
-``` composer install```
+*** composer install ***
 
 
 ``` npm install ```
